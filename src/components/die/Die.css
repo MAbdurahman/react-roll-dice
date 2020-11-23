@@ -1,0 +1,7 @@
+.Die {
+   margin: .5em .125em;
+   color: grey;
+   font-size: 8rem;
+   text-align: center;
+   overflow: hidden;
+}
