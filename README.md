@@ -6,3 +6,5 @@ First install node_modules folder
 
 Then to start app in browser at http://localhost:3000
 ### `npm start or yarn start`
+
+![react-roll-dice](https://user-images.githubusercontent.com/20928980/99985256-8c1afd00-2d73-11eb-8e99-9890f17dd5d4.gif)
