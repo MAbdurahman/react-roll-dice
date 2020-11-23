@@ -1,0 +1,50 @@
+.RollDice {
+   display: flex;
+   flex-flow: column nowrap;
+   min-height: 100vh;
+}
+
+.RollDice__dice {
+   display: flex;
+   align-content: center;
+   justify-content: center;
+}
+
+.RollDice__button button {
+   padding: .5em;
+   font-size: 2rem;
+   letter-spacing: 2px;
+   background-color: #423E37;
+   color: #EDEBD7;
+   border: 2px solid #423E37;
+   border-radius: 8px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   -ms-border-radius: 8px;
+   -o-border-radius: 8px;
+   transition: all .333s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+   -webkit-transition: all .333s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+   -moz-transition: all .333s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+   -ms-transition: all .333s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+   -o-transition: all .333s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+   box-shadow: 0 9px #999;
+}
+
+.RollDice__button button:hover {
+   color: #EDEBD7;
+   background-color: #6E675F;
+   transform: scale(1.0125);
+   -webkit-transform: scale(1.0125);
+   -moz-transform: scale(1.0125);
+   -ms-transform: scale(1.0125);
+   -o-transform: scale(1.0125);
+   cursor: pointer;
+}
+
+.RollDice__button button:active {
+   color: #EDEBD7;
+   letter-spacing: 1;
+   background-color: #6E675F;
+   box-shadow: 0 5px #666;
+   transform: translateY(4px);
+}
